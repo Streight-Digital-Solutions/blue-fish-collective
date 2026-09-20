@@ -1,0 +1,289 @@
+.root {
+    --primary-color: #212121;
+}
+
+.hero {
+    color: #0b3a52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background-image {
+    position: fixed;
+    width:100%;
+    z-index: -1;
+}
+img.logo {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    filter: drop-shadow(0 0 0.75rem #1271a1);
+}
+.branding {
+    display: block;
+    align-items: center;
+}
+
+/*---------------------------------------------NAVIGATION---------------------------------------------------------*/
+nav {
+  background-color: #fcfdfe21;;
+  border-color: #00ffff;
+  border-width: 2px;
+  padding: 3px;
+  margin-left: 50px;
+  margin-right: 50px;
+  filter: drop-shadow(0 0 0.75rem #1271a1);
+}
+nav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Instrument Serif", serif;
+  font-weight: 100;
+  z-index: 3;
+}
+nav a:hover {
+  background-color:  #c7c7c7;
+  color: rgb(38, 34, 34);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------- */
+
+
+/*---------------------------------------------TITLES---------------------------------------------------------*/
+.title {
+    display: block;
+    color: #eaeff0;
+    font-family: "Instrument Serif", serif;
+    font-weight: 100;
+    font-size: 50px;
+    z-index: 2;
+    font-size: 80px;
+    text-align: center;
+}
+.subtitle {
+    display: block;
+    color: #eaeff0;
+    font-family: "Instrument Serif", serif;
+    font-size: 100px;
+    z-index: 2;
+}
+
+.glowing-title {
+    display: block;
+    color: #eaeff0;
+    font-family: "Instrument Serif", serif;
+    font-size: 100px;
+    font-weight: 100;
+    z-index: 2;
+    font-size: 80px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------------------------------------------- */
+
+
+/*---------------------------------------------Buttons---------------------------------------------------------*/
+
+
+.terms-buttons{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 2px));
+  grid-gap: 2px;
+  justify-content: center;
+}
+
+.action-button {
+    height: 50px;
+    width:150px;
+    margin:10px;
+    padding: 10px;
+    background-color: #00000088;
+    color: #00ffff;
+    border-radius: 5px;
+    border-color: #00ffff;
+    font-size: 20px;
+    font-family: "Instrument Serif", serif;
+}
+
+.action-button:hover {
+    height: 50px;
+    width:150px;
+    margin:10px;
+    padding: 10px;
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 5px;
+    border-color: #00ffff;
+    font-size: 20px;
+    font-family: "Instrument Serif", serif;
+}
+/*-------------------------------------------------------------------------------------------------------------- */
+
+/*------------------------------------------------CARDS----------------------------------------------------------*/
+.cards {
+  max-width: 100%;
+  margin: 1px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-gap: 20px;
+  
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  margin: 20px;
+  background-color: #00ffff17;
+  filter: drop-shadow(0 0 0.75rem #1271a1);
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card-img {
+  border-radius: 10%;
+  margin: 50px;
+  width:80%;
+}
+
+.card-title {
+    display: block;
+    color: #eaeff0;
+    font-family: "Instrument Serif", serif;
+    font-size: 70px;
+    z-index: 2;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    color: #eaeff0;
+    font-family: "Instrument Serif", serif;
+}
+
+.card .content {
+  padding: 0.5rem;
+}
+.card-price {
+    color: linear-gradient(to right,#00ffff,#000000);
+    font-family: "Instrument Serif", serif;
+}
+
+.card footer {
+  background-color: #333333;
+  color: white;
+  padding: 0.5rem;
+}
+/*-------------------------------------------------------------------------------------------------------------- */
+
+section{
+    margin-top: 2px;
+    height:auto;
+    padding-top: 0;
+}
+
+/*Screens */
+@media screen and (max-width: 1500px) {
+  img.logo{
+    width: 50%;
+    height: 50%;
+  } 
+  .glowing-title,.glowing-title:hover,.title{ 
+    font-size: 300%;
+  }
+  .card-title{
+    font-size: 200%;
+  }
+  .nav,.terms-buttons,.action-button,.action-button:hover{
+    width:100%;
+  }
+  .action-button,.action-button:hover{
+    font-size: 70%;
+  }
+  .background-image{
+    height:100%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  img.logo{
+    width: 50%;
+    height: 50%;
+  } 
+  .glowing-title,.glowing-title:hover,.title{ 
+    font-size: 200%;
+  }
+  .card-title{
+    font-size: 100%;
+  }
+  .nav,.terms-buttons,.action-button,.action-button:hover{
+    width:100%;
+  }
+  .action-button,.action-button:hover{
+    font-size: 70%;
+  }
+  .background-image{
+    height:100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  img.logo{
+    width: 50%;
+    height: 50%;
+  } 
+  .glowing-title,.glowing-title:hover,.title{ 
+    font-size: 200%;
+  }
+  .card-title{
+    font-size: 100%;
+  }
+  .nav,.terms-buttons,.action-button,.action-button:hover{
+    width:100%;
+  }
+  .action-button,.action-button:hover{
+    font-size: 70%;
+  }
+  .background-image{
+    height:100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.logo{
+    width: 50%;
+    height: 50%;
+  } 
+  .glowing-title,.glowing-title:hover,.title{ 
+    font-size: 200%;
+  }
+  .card-title{
+    font-size: 100%;
+  }
+  .nav,.terms-buttons,.action-button,.action-button:hover{
+    width:100%;
+  }
+  .action-button,.action-button:hover{
+    font-size: 70%;
+  }
+  .background-image{
+    height:100%;
+  }
+}
+/*-------------------------------------------------------------------------------------------------------------- */
+
+
+/*Animations*/
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #000000, 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #000000, 0 0 30px #00ffff 0 0 40px #00ffff 0 0 50px #00ffff 0 0 60px #00ffff 0 0 70px #00ffff 0 0 80px #00ffff;
+  }
+}
