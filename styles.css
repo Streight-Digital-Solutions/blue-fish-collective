@@ -222,9 +222,7 @@ section{
   .card-title{
     font-size: 200%;
   }
-  .nav,.terms-buttons,.action-button,.action-button:hover{
-    width:100%;
-  }
+
   .action-button,.button-icon,.action-button:hover{
     font-size: 70%;
     height: 50%;
@@ -245,11 +243,10 @@ section{
   .card-title{
     font-size: 100%;
   }
-  .nav,.terms-buttons,.action-button,.action-button:hover{
-    width:100%;
-  }
   .action-button,.action-button:hover{
     font-size: 70%;
+    height: 50%;
+    width:50%;
   }
   .background-image{
     height:100%;
@@ -266,11 +263,10 @@ section{
   .card-title{
     font-size: 100%;
   }
-  .nav,.terms-buttons,.action-button,.action-button:hover{
-    width:100%;
-  }
   .action-button,.action-button:hover{
     font-size: 70%;
+    height: 50%;
+    width:50%;
   }
   .background-image{
     height:100%;
@@ -287,11 +283,10 @@ section{
   .card-title{
     font-size: 100%;
   }
-  .nav,.terms-buttons,.action-button,.action-button:hover{
-    width:100%;
-  }
   .action-button,.action-button:hover{
     font-size: 70%;
+    height: 50%;
+    width:50%;
   }
   .background-image{
     height:100%;
