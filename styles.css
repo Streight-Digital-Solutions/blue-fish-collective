@@ -200,6 +200,7 @@ nav a:hover {
     filter: drop-shadow(0 0 0.9rem #1271a1);
     font-family: "Instrument Serif", serif;
     font-size: 40px;
+    align-content: center;
 }
 
 /*-------------------------------------------------------------------------------------------------------------- */
@@ -222,7 +223,9 @@ section{
   .card-title{
     font-size: 200%;
   }
-
+  .card-price{
+    font-size: 80%;
+  }
   .action-button,.button-icon,.action-button:hover{
     font-size: 70%;
     height: 50%;
@@ -242,6 +245,9 @@ section{
   }
   .card-title{
     font-size: 100%;
+  }
+  .card-price{
+    font-size: 90%;
   }
   .action-button,.action-button:hover{
     font-size: 70%;
@@ -263,10 +269,14 @@ section{
   .card-title{
     font-size: 100%;
   }
+  
   .action-button,.action-button:hover{
     font-size: 70%;
     height: 50%;
     width:50%;
+  }
+  .card-price{
+    font-size: 90%;
   }
   .background-image{
     height:100%;
@@ -282,6 +292,9 @@ section{
   }
   .card-title{
     font-size: 100%;
+  }
+  .card-price{
+    font-size: 90%;
   }
   .action-button,.action-button:hover{
     font-size: 70%;
