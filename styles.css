@@ -33,11 +33,6 @@ img.logo {
     filter: drop-shadow(0 0 0.75rem #1271a1);
 }
 img.logo:hover {
-    display: block;
-    margin: 20px auto;
-    width: 500px;
-    height: 500px;
-    z-index: 2;
     filter: drop-shadow(0 0 0.75rem #39b4f2);
 }
 .branding {
@@ -230,8 +225,10 @@ section{
   .nav,.terms-buttons,.action-button,.action-button:hover{
     width:100%;
   }
-  .action-button,.action-button:hover{
+  .action-button,.button-icon,.action-button:hover{
     font-size: 70%;
+    height: 50%;
+    width:50%;
   }
   .background-image{
     height:100%;
